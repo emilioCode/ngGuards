@@ -1,0 +1,8 @@
+<h3>Condition</h3>
+<p>This is an example to use Guards in Angular. The Guard in this sample validates if the person is an Andult (over 18 years old) for navegating to the about's page. </p>
+<hr/>
+<p>1. What's your name?</p>
+<input placeholder="Your name" [(ngModel)]="name" (change)="updatePerson()"/>
+
+<p>2. How old are you?</p>
+<input type="number" min="0" max="100" [(ngModel)]="age" (change)="updatePerson()"/>
